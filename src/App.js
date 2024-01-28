@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1>Home Page Little Lemon</h1>
+     <h1>Little Lemon Restaurant</h1>
     </div>
   );
 }
