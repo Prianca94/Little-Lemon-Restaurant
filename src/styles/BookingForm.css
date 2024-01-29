@@ -4,10 +4,9 @@
 }
 
 .form-container {
-    max-width: 420px;
     margin: auto;
-    border: 1px solid var(--primary-green);
     position: relative;
+    max-width: 400px;
 }
 
 .form-input {

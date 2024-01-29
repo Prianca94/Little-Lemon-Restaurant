@@ -6,11 +6,11 @@
 }
 
 #testimonials-grid {
-    padding: 4rem 13rem;
+    padding: 2rem 13rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 20% 15%;
+    gap: 10% 10%;
     grid-template-areas:
         "first second"
         "third fourth";
@@ -25,18 +25,18 @@
 .fourth {
     text-align: justify;
     position: relative;
-    width: 300px;
+    width: 415px;
     height: 250px;
     border-radius: 8px;
-    border: 1px solid var(--primary-green);
-    padding: 5px;
+    border: 0px solid var(--primary-green);
+    padding: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .testimonials-description,
 .span-age {
     position: absolute;
-    bottom: 5px;
+    bottom: 40px;
 }
 
 .testimonials-description {

@@ -22,6 +22,8 @@ export default function Specials() {
                 }
             </section>
         </main>
+
+        
     )
 }
 

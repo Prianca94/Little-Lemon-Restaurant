@@ -15,6 +15,7 @@ p {
 .form-desc {
 	text-align: center;
 	padding: 2em 1em;
+
 }
 
 label {
@@ -24,7 +25,9 @@ label {
 	line-height: 22px;
 	letter-spacing: 0em;
 }
-
+.headerbg{
+	background-color: #495e57 !important;
+  }
 .title {
 	font-family: 'Markazi Text', serif;
 	font-size: 64px;
@@ -124,6 +127,27 @@ label {
 	bottom: 0.6em;
 
 }
+
+.header {
+	padding: 40px 0;
+  }
+  
+  .header section {
+  color: #EDEFEE;
+  padding: 10px 13%;
+  position: relative;
+  }
+  h2 {
+	color: #F4CE14;
+	font-size: 40px;
+  }
+  
+  h3 {
+	font-size: 25px;
+  }
+
+  
+  
 
 .testimonials-title {
 	font-family: 'Markazi Text', serif;

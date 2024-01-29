@@ -5,17 +5,15 @@ import { useNavigate } from "react-router-dom";
 export default function Header() {
     const navigate = useNavigate();
     return (
-        <header>
-            <div id="hero-description">
-                <h1 >
+        <header id='headerbg'>
+            <div id="hero-description" >
+                <h1 className='title'>
                     Little Lemon
                 </h1>
-                <h4 className="subtitle">
-                    Savor the flavor of the Mediterranean at Little Lemon - where every bite is a burst of sunshine!
-                </h4>
-                <button className="yellow-rounded paragraph mt-9" onClick={() => navigate('/book')} >Reserve</button>
+                <p className='desc'>We are a family owned mediterrian restaurant focused on traditional recipes served with a modern twist</p>
+       <button className="yellow-rounded paragraph mt-9 reservebutton" onClick={() => navigate('/book')} >Reserve</button>
             </div>
-            <img src={RestaurantPhoto} alt="Restaurant" height="334" />
+            <img className="headerimg" src={RestaurantPhoto} alt="Restaurant"  />
         </header>
     )
 }

@@ -40,6 +40,7 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
     return (
       <main>
         <p className="desc-text form-desc">Please fill in the form below accurately to enable us serve you nicely.</p>
+        
         <form onSubmit={handleSubmit}>
           <div className="seperate">
             <label htmlFor="first-name">First Name</label>
