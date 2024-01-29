@@ -124,12 +124,7 @@ export default function BookingForm({ submitFormData, availableTimes, setDates }
                             occasion={occasion}
                             setOccasion={setOccasion}
                         />
-                        <h1 className="lead-text mt-24">Please notice that...</h1>
-                        <ul className="paragraph">
-                            <li>Your reservation confirmation will be sent into your e-mail so please make sure your contact information is correct.</li>
-                            <li>If you don't arrive by 30 minutes we will give your table to someone else.</li>
-                            <li>There is an extra service charge of 50 cents by using our online reservation.</li>
-                        </ul>
+                       
                     </div>
                     <div className="reserve-container">
                         <button aria-label="reserve button" title="Reserve" type="button" className="yellow-rounded lead-text" onClick={() => setConfirmation(true)}>

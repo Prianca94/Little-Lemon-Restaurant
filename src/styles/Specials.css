@@ -2,16 +2,24 @@
     width: fit-content;
     padding: 5rem;
     margin: auto;
+
 }
+
 
 #specials>h2 {
     margin-bottom: 1rem;
+    display: flex;
 }
 
 #specials-wrapper {
-    display: flex;
     gap: 2rem;
+    display: flex;
+    flex-direction: row !important;
+    margin-left: 0px;
+
 }
+
+
 
 .specials-description {
     margin-top: 10px;
@@ -39,7 +47,7 @@
     }
 
     #specials-wrapper {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 }
 

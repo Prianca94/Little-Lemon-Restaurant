@@ -11,6 +11,31 @@ header {
     position: relative;
 }
 
+#headerbg{
+
+    background-color: #495e57;
+}
+
+.title{
+    margin-top: 30px;
+    color: white;
+    padding: 20px;
+}
+
+.desc{
+    color:white;
+    padding: 20px;
+}
+
+.reservebutton{
+    margin-bottom: 40px;
+    padding: auto;
+    margin-left: 20px;
+}
+
+.headerimg{
+    height: 300px;
+}
 #hero-description button {
     position: absolute;
     bottom: -20px;
